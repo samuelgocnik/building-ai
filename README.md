@@ -37,7 +37,7 @@ AI methods include:
 
 | Data Source      | Description |
 | ---------------- | ----------- |
-| OpenStreetMap    | Provides mapping and route data for runners. |
+| [OpenStreetMap](https://www.openstreetmap.org/)    | Provides mapping and route data for runners. |
 | [OpenWeatherMap](https://openweathermap.org/)   | Supplies real-time weather information. |
 | Traffic APIs     | Offers data on current traffic conditions. |
 
