@@ -27,8 +27,8 @@ This solution is particularly useful in urban environments where safety and air 
 ## Data sources and AI methods
 
 The Smart Running Route Planner utilizes various data sources:
-* OpenStreetMap for mapping and route data.
-* Weather APIs (e.g., OpenWeatherMap) for real-time weather conditions.
+* [OpenStreetMap](https://www.openstreetmap.org/) for mapping and route data.
+* Weather APIs (e.g., [OpenWeatherMap](https://openweathermap.org/) for real-time weather conditions.
 * Traffic data from local traffic management systems or APIs.
 
 AI methods include:
@@ -38,7 +38,7 @@ AI methods include:
 | Data Source      | Description |
 | ---------------- | ----------- |
 | OpenStreetMap    | Provides mapping and route data for runners. |
-| OpenWeatherMap   | Supplies real-time weather information. |
+| [OpenWeatherMap](https://openweathermap.org/)   | Supplies real-time weather information. |
 | Traffic APIs     | Offers data on current traffic conditions. |
 
 ## Challenges
@@ -60,4 +60,4 @@ To move forward, I need skills in mobile app development, data visualization, an
 ## Acknowledgments
 
 * Inspiration from existing fitness apps and running communities.
-* Data sources such as OpenStreetMap and OpenWeatherMap.
+* Data sources such as [OpenStreetMap](https://www.openstreetmap.org/) and [OpenWeatherMap](https://openweathermap.org/).
