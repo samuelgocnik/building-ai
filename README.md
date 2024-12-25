@@ -1,79 +1,63 @@
-<!-- This is the markdown template for the final project of the Building AI course, 
-created by Reaktor Innovations and University of Helsinki. 
-Copy the template, paste it to your GitHub README and edit! -->
-
-# Project Title
+# Smart Running Route Planner
 
 Final project for the Building AI course
 
 ## Summary
 
-Describe briefly in 2-3 sentences what your project is about. About 250 characters is a nice length! 
-
+The Smart Running Route Planner is an AI-driven application that suggests optimal running routes based on user preferences, real-time data, and safety considerations. It aims to enhance the running experience by providing personalized and safe route options.
 
 ## Background
 
-Which problems does your idea solve? How common or frequent is this problem? What is your personal motivation? Why is this topic important or interesting?
+The Smart Running Route Planner addresses several common problems faced by runners:
+* Difficulty in finding safe and enjoyable running routes.
+* Lack of personalized route suggestions based on individual preferences (e.g., distance, terrain).
+* Inability to account for real-time factors such as weather, traffic, and air quality.
 
-This is how you make a list, if you need one:
-* problem 1
-* problem 2
-* etc.
-
+As an avid runner, I understand the importance of having safe and enjoyable routes. This interesting topic combines technology with fitness, promoting healthier lifestyles while ensuring user safety.
 
 ## How is it used?
 
-Describe the process of using the solution. In what kind situations is the solution needed (environment, time, etc.)? Who are the users, what kinds of needs should be taken into account?
+Users can access the Smart Running Route Planner through a mobile app or web interface. The process involves:
+1. Inputting personal preferences (e.g., desired distance, terrain type, and safety concerns).
+2. The app analyzes real-time data (e.g., weather conditions, traffic, and air quality) to generate route suggestions.
+3. Users can view the suggested routes on a map, complete with distance and estimated time.
 
-Images will make your README look nice!
-Once you upload an image to your repository, you can link link to it like this (replace the URL with file path, if you've uploaded an image to Github.)
-![Cat](https://upload.wikimedia.org/wikipedia/commons/5/5e/Sleeping_cat_on_her_back.jpg)
-
-If you need to resize images, you have to use an HTML tag, like this:
-<img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Sleeping_cat_on_her_back.jpg" width="300">
-
-This is how you create code examples:
-```
-def main():
-   countries = ['Denmark', 'Finland', 'Iceland', 'Norway', 'Sweden']
-   pop = [5615000, 5439000, 324000, 5080000, 9609000]   # not actually needed in this exercise...
-   fishers = [1891, 2652, 3800, 11611, 1757]
-
-   totPop = sum(pop)
-   totFish = sum(fishers)
-
-   # write your solution here
-
-   for i in range(len(countries)):
-      print("%s %.2f%%" % (countries[i], 100.0))    # current just prints 100%
-
-main()
-```
-
+This solution is particularly useful in urban environments where safety and air quality can vary significantly. The primary users are recreational runners, fitness enthusiasts, and those training for events who seek safe and enjoyable running experiences.
 
 ## Data sources and AI methods
-Where does your data come from? Do you collect it yourself or do you use data collected by someone else?
-If you need to use links, here's an example:
-[Twitter API](https://developer.twitter.com/en/docs)
 
-| Syntax      | Description |
-| ----------- | ----------- |
-| Header      | Title       |
-| Paragraph   | Text        |
+The Smart Running Route Planner utilizes various data sources:
+* OpenStreetMap for mapping and route data.
+* Weather APIs (e.g., OpenWeatherMap) for real-time weather conditions.
+* Traffic data from local traffic management systems or APIs.
+
+AI methods include:
+* Machine learning algorithms to analyze user preferences and suggest optimal routes.
+* Natural language processing to interpret user input and preferences.
+
+| Data Source      | Description |
+| ---------------- | ----------- |
+| OpenStreetMap    | Provides mapping and route data for runners. |
+| OpenWeatherMap   | Supplies real-time weather information. |
+| Traffic APIs     | Offers data on current traffic conditions. |
 
 ## Challenges
 
-What does your project _not_ solve? Which limitations and ethical considerations should be taken into account when deploying a solution like this?
+The Smart Running Route Planner does not solve all issues related to running safety and enjoyment. Limitations include:
+* Inability to account for all personal safety concerns (e.g., crime rates in certain areas).
+* Dependence on the accuracy of real-time data, which may not always be reliable.
+* Ethical considerations regarding user privacy and data security.
 
 ## What next?
 
-How could your project grow and become something even more? What kind of skills, what kind of assistance would you  need to move on? 
+The project could grow by incorporating additional features such as:
+* Community-driven route reviews and ratings.
+* Integration with wearable devices for real-time performance tracking.
+* Enhanced AI capabilities for more personalized suggestions.
 
+To move forward, I need skills in mobile app development, data visualization, and further expertise in machine learning. Assistance from developers and data scientists would also be beneficial.
 
 ## Acknowledgments
 
-* list here the sources of inspiration 
-* do not use code, images, data etc. from others without permission
-* when you have permission to use other people's materials, always mention the original creator and the open source / Creative Commons licence they've used
-  <br>For example: [Sleeping Cat on Her Back by Umberto Salvagnin](https://commons.wikimedia.org/wiki/File:Sleeping_cat_on_her_back.jpg#filelinks) / [CC BY 2.0](https://creativecommons.org/licenses/by/2.0)
-* etc
+* Inspiration from existing fitness apps and running communities.
+* Data sources such as OpenStreetMap and OpenWeatherMap.
